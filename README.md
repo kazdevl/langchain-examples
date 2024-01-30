@@ -1,0 +1,2 @@
+# langchain-examples
+とりあえずLangChainで色々なサンプル実装するためのリポジトリ
