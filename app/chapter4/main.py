@@ -32,7 +32,7 @@ def select_model():
 
     temperature = st.sidebar.slider("Tempreature:", min_value=0.0, max_value=2.0, value=0.1, step=0.01)
 
-    return ChatOpenAI(model=model, temperature=temperature)
+    return ChatOpenAI(model_name=model, temperature=temperature)
 
 def get_answer(llm, messages):
     with get_openai_callback() as callback:
